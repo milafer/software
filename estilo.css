@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+    background-color: #d1e6fa;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  /* Estilos de los párrafos y títulos */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos del carrusel */
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Estilos del footer */
+  footer {
+    background-color: #cde3f9;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  /* Tarjetas */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #140dda; /* Color de fondo de la tarjeta */
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 600px; /* Altura de la imagen */
+    width: 900px /* Ancho de la imagen */
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #564b4a; /* Color del título */
+  }
+  
+  .card-text {
+    color: #888888; /* Color del texto de la descripción */
+  }
+  
+  .btn {
+    background-color: #f9e1df; /* Color del botón */
+    color: #564b4a; /* Color del texto del botón */
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #b7caeb; /* Color de fondo del botón al pasar el cursor */
+  }
+  
