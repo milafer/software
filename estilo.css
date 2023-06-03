@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffb6af !important;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
   .container {
@@ -13,7 +15,7 @@ body {
   
   /* Estilos de la barra de navegación */
   .navbar {
-    background-color: #d1e6fa;
+    background-color: #b0f2c2;
   }
   
   .navbar-brand {
@@ -56,6 +58,15 @@ body {
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #140dda; /* Color de fondo de la tarjeta */
+    box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
+  }
+  .card:hover{
+    
+    box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
+    transition: all 0.23s linear;
+    transform: scale(1.1);
+    
+    
   }
   
   .card-img-top {
@@ -83,4 +94,7 @@ body {
   .btn:hover {
     background-color: #b7caeb; /* Color de fondo del botón al pasar el cursor */
   }
-  
+
+  .nav-link:hover{
+    color: rgb(255, 255, 255)!important;;
+  }   
