@@ -15,7 +15,7 @@ body {
   
   /* Estilos de la barra de navegación */
   .navbar {
-    background-color: #b0f2c2;
+    background-color: #ebf2b0;
   }
   
   .navbar-brand {
@@ -46,11 +46,11 @@ body {
   
   /* Estilos del footer */
   footer {
-    background-color: #cde3f9;
+    background-color: #ebf2b0;;
     padding: 20px;
     text-align: center;
     font-size: 14px;
-    color: #6c757d;
+    color: #000000;
   }
   
   /* Tarjetas */
@@ -131,3 +131,32 @@ body {
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  .contenedor {
+
+    display: flex;
+
+
+  }
+  .imagen {
+    object-fit: cover;
+    height: 700px; /* Altura de la imagen */
+    width: 400px /* Ancho de la imagen */
+  }
+
+  
+.columna1{
+  margin-right: 10px;
+  
+  }
+
+  .columna2{
+    margin-left: 5px;
+    background-color: #cd8899;
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
